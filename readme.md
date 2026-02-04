@@ -47,3 +47,8 @@ Para crear las tablas en tu base de datos Postgres:
 Bash
 
 docker-compose exec app php artisan migrate --seed
+
+
+# Los archivos donde se almacena los archivo excel
+
+storage/app/exports
